@@ -14,7 +14,8 @@ Antes de começar, certifique-se de ter os seguintes itens instalados no seu amb
 - Conta no [Ngrok](https://ngrok.com)
 
 > Obs: Esperamos que você já tenha conta no GitHub para clonar o projeto ;)
-
+Sem Banco de Dados:
+Esse projeto não utiliza nenhum banco de dados. A decisão foi intencional, uma vez que o foco está na integração com a API do HubSpot e no fluxo OAuth + Webhook. Como não havia a necessidade de armazenar informações localmente, não foi necessário complicar o projeto com uma camada de persistência. Isso ajuda a manter o código mais enxuto e direto ao ponto, facilitando o entendimento e o aprendizado.
 ---
 
 ## Etapas de Configuração
